@@ -1,0 +1,24 @@
+﻿生成启动时间为 2015/12/5 2:42:46。
+     1>项目“D:\Project Files\C\vs\2015.9.21\test\test\test.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Release\test.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Release\test.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp testDlg.cpp
+         test.cpp
+         testDlg.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\test.res" test.rc 
+       Link:
+         D:\Program Files\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Project Files\C\vs\2015.9.21\test\Release\test.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Program Files\Microsoft Visual Studio 14.0\VC\Include\Manifest\dpiaware.manifest" /Debug /PDB:"D:\Project Files\C\vs\2015.9.21\test\Release\test.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Project Files\C\vs\2015.9.21\test\Release\test.lib" /MACHINE:X86 /SAFESEH Release\test.res
+         Release\stdafx.obj
+         Release\test.obj
+         Release\testDlg.obj
+         正在生成代码
+         All 236 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         已完成代码的生成
+         test.vcxproj -> D:\Project Files\C\vs\2015.9.21\test\Release\test.exe
+     1>已完成生成项目“D:\Project Files\C\vs\2015.9.21\test\test\test.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:06.34
