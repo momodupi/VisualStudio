@@ -1,0 +1,51 @@
+﻿生成启动时间为 2015/12/5 22:37:28。
+     1>项目“D:\Project Files\Visual Studio 2015\Homework\神经网络\DigitRec.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp".\Debug\DigitRec.pch" /Fo".\Debug\\" /Fd".\Debug\vc140.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+     1>d:\program files\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+         d:\program files\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(33): note: 参见“MBCS_Support_Deprecated_In_MFC”的声明
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         D:\Program Files\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp".\Debug\DigitRec.pch" /Fo".\Debug\\" /Fd".\Debug\vc140.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt ChildView.cpp DBpParamater.cpp DIBAPI.CPP DigitRec.cpp INPUT1.cpp MainFrm.cpp
+         MainFrm.cpp
+         INPUT1.cpp
+         DigitRec.cpp
+     1>d:\project files\visual studio 2015\homework\神经网络\digitrec.cpp(51): warning C4996: 'CWinApp::Enable3dControls': CWinApp::Enable3dControls is no longer needed. You should remove this call.
+         d:\program files\microsoft visual studio 14.0\vc\atlmfc\include\afxwin.h(5224): note: 参见“CWinApp::Enable3dControls”的声明
+         DIBAPI.CPP
+     1>d:\project files\visual studio 2015\homework\神经网络\dibapi.cpp(562): warning C4244: “=”: 从“ULONGLONG”转换到“DWORD”，可能丢失数据
+         DBpParamater.cpp
+         ChildView.cpp
+     1>d:\project files\visual studio 2015\homework\神经网络\mydiblib.h(2113): warning C4244: “=”: 从“double”转换到“BYTE”，可能丢失数据
+     1>d:\project files\visual studio 2015\homework\神经网络\mydiblib.h(2236): warning C4244: “=”: 从“double”转换到“BYTE”，可能丢失数据
+     1>d:\project files\visual studio 2015\homework\神经网络\bp.h(190): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>d:\project files\visual studio 2015\homework\神经网络\bp.h(210): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>d:\project files\visual studio 2015\homework\神经网络\bp.h(232): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>d:\project files\visual studio 2015\homework\神经网络\bp.h(250): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>d:\project files\visual studio 2015\homework\神经网络\bp.h(755): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /D _AFXDLL /l"0x0804" /nologo /fo".\Debug\DigitRec.res" DigitRec.rc 
+       Link:
+         D:\Program Files\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\DigitRec.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Program Files\Microsoft Visual Studio 14.0\VC\Include\Manifest\dpiaware.manifest" /Debug /PDB:".\Debug\DigitRec.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\DigitRec.lib" /MACHINE:X86 /SAFESEH .\Debug\DigitRec.res
+         .\Debug\ChildView.obj
+         .\Debug\DBpParamater.obj
+         .\Debug\DIBAPI.obj
+         .\Debug\DigitRec.obj
+         .\Debug\INPUT1.obj
+         .\Debug\MainFrm.obj
+         .\Debug\StdAfx.obj
+     1>ChildView.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         DigitRec.vcxproj -> D:\Project Files\Visual Studio 2015\Homework\神经网络\.\Debug\DigitRec.exe
+       BscMake:
+         D:\Program Files\Microsoft Visual Studio 14.0\VC\bin\bscmake.exe /nologo /o".\Debug\DigitRec.bsc" .\Debug\ChildView.sbr .\Debug\DBpParamater.sbr .\Debug\DIBAPI.sbr .\Debug\DigitRec.sbr .\Debug\INPUT1.sbr .\Debug\MainFrm.sbr .\Debug\StdAfx.sbr
+     1>已完成生成项目“D:\Project Files\Visual Studio 2015\Homework\神经网络\DigitRec.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:10.23
